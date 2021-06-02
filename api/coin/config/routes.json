@@ -1,0 +1,13 @@
+{
+    "routes":[
+        {
+            "method":"GET",
+            "path":"/getcoin",
+            "handler":"coin.index",
+            "config":{
+                "policies":[]
+            }
+
+        }
+    ]
+}

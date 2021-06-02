@@ -1,0 +1,13 @@
+{
+    "routes":[
+        {
+            "method":"GET",
+            "path":"/getcoin/logos",
+            "handler":"coinLogo.index",
+            "config":{
+                "policies":[]
+            }
+
+        }
+    ]
+}
