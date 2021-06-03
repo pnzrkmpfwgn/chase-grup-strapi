@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adresses",
+  "info": {
+    "name": "Adress"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "communication": {
+      "type": "string"
+    },
+    "info": {
+      "type": "string"
+    }
+  }
+}
