@@ -2,7 +2,7 @@
 
 A quick description of your strapi application
 
-#Quick note 00
+# Quick note 00
 In this api I've fetched certain coin's data by using their ids. If you want to get all of the data from your strapi app and maybe create an entry inside your data base or send to your client through your strapi server you have to modify api/coin/controllers/Coin.js accordingly.
 
 # Quick note 01
