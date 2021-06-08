@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "adresses",
+  "collectionName": "tr_adresses",
   "info": {
-    "name": "Adress"
+    "name": "TR Adress"
   },
   "options": {
     "increments": true,

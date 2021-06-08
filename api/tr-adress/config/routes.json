@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/summaries",
-      "handler": "summary.find",
+      "path": "/tr-adresses",
+      "handler": "tr-adress.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/summaries/count",
-      "handler": "summary.count",
+      "path": "/tr-adresses/count",
+      "handler": "tr-adress.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/summaries/:id",
-      "handler": "summary.findOne",
+      "path": "/tr-adresses/:id",
+      "handler": "tr-adress.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/summaries",
-      "handler": "summary.create",
+      "path": "/tr-adresses",
+      "handler": "tr-adress.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/summaries/:id",
-      "handler": "summary.update",
+      "path": "/tr-adresses/:id",
+      "handler": "tr-adress.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/summaries/:id",
-      "handler": "summary.delete",
+      "path": "/tr-adresses/:id",
+      "handler": "tr-adress.delete",
       "config": {
         "policies": []
       }
