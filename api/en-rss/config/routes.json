@@ -1,0 +1,10 @@
+{"routes":[
+    {
+        "method":"GET",
+        "path":"/en-getrssinfo",
+        "handler":"en-rss.index",
+        "config":{
+            "policies":[]
+        }
+    }
+]}
