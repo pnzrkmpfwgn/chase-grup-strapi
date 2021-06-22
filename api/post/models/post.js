@@ -1,4 +1,5 @@
 const slugify = require("slugify");
+const post = require("../controllers/post");
 
 //Strips out special characters from the title to make it url-friendly
 function createSlug(title) {
@@ -44,5 +45,6 @@ module.exports = {
         data.excerpt = createExcerpt(data.Article)  
     }
     }
-  }
+  },
+  
 }

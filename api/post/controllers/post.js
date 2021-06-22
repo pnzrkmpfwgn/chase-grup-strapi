@@ -12,5 +12,14 @@ module.exports = {
         })
 
         return sanitized;
-    }
+    },
+    find: async ctx =>{
+        let posts =[]
+        posts = await strapi.services.post.find(this.params);
+        if(ctx.query.limit){
+            console.log("executed");
+           posts= posts.slice(0,ctx.query.limit)
+        }
+        ctx.send(posts)
+      }
 };
