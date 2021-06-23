@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tr_adresses",
+  "info": {
+    "name": "TR Adress"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "communication": {
+      "type": "string"
+    },
+    "info": {
+      "type": "string"
+    }
+  }
+}

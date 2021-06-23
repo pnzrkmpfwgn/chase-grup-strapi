@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "en_main_menus",
+  "info": {
+    "name": "EN Main Menu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menu_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.main-menu"
+    }
+  }
+}

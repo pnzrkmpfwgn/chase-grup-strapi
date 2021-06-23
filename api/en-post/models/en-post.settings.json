@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "en_posts",
+  "info": {
+    "name": "En-Post",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Article": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "string"
+    },
+    "views": {
+      "type": "integer",
+      "default": 0
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}

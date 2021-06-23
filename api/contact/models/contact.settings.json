@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address1": {
+      "type": "string"
+    },
+    "landphone1": {
+      "type": "string"
+    },
+    "mobile1": {
+      "type": "string"
+    },
+    "mobile2": {
+      "type": "string"
+    },
+    "address2": {
+      "type": "string"
+    },
+    "landphone2": {
+      "type": "string"
+    }
+  }
+}

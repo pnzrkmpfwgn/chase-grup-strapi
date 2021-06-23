@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "en_pages",
+  "info": {
+    "name": "EN Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string"
+    },
+    "full_slug": {
+      "type": "string"
+    }
+  }
+}

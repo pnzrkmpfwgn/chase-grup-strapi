@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offices",
+  "info": {
+    "name": "Offices"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "adress": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "landphone": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}
