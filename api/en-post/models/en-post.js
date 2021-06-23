@@ -1,5 +1,5 @@
 const slugify = require("slugify");
-const post = require("../controllers/post");
+const post = require("../controllers/en-post");
 
 //Strips out special characters from the title to make it url-friendly
 function createSlug(title) {
