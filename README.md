@@ -8,6 +8,9 @@ npm run develop
 
 default localhost:1337
 
+#Quick note -01
+The following notes are for the legacy branch for coinmarketcap api.
+
 # Quick note 00
 In this api I've fetched certain coin's data by using their ids. If you want to get all of the data from your strapi app and maybe create an entry inside your data base or send to your client through your strapi server you have to modify api/coin/controllers/Coin.js accordingly.
 
