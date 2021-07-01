@@ -8,7 +8,7 @@ npm run develop
 
 default localhost:1337
 
-#Quick note -01
+# Quick note -01
 The following notes are for the legacy branch for coinmarketcap api.
 
 # Quick note 00
